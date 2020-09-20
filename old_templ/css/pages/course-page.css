@@ -1,0 +1,125 @@
+.hero-text .hero-title-course {
+	font-weight: 400;
+}
+
+.picture-course-page {
+	height: 100%;
+	width: 100%;
+	top: -10px;
+	left: -30px;
+}
+
+.picture-course-page img {
+	max-height: 350px;
+	margin: auto;
+}
+
+.price-course {
+	text-align: right;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #3871C7;
+	font-weight: 700;
+}
+
+.icon-item-course {
+	display: flex;
+}
+
+.icon-text {
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+.icon-info-course {
+	margin-top: 80px;
+}
+
+/* learn-section */
+.text-course-page {
+	font-weight: 600;
+}
+
+.skills {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+.skill-item {
+	max-width: 280px;
+	text-align: center;
+	background: linear-gradient(90deg,#005dff,#a513ff);
+	padding: 0 20px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.skill-img {
+	width: 80px;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+/* end-learn-section */
+
+/* teacher-section */
+
+	.teachers-course {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.teacher-course {
+		position: relative;
+	}
+
+	.teacher-description {
+		display: flex;
+		align-items: center;
+	}
+
+	.photo-teacher-course {
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+	}
+
+	.description-t {
+		max-width: 270px;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.name-teacher-course, .photo-teacher-course {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.name-teacher-course {
+		width: 180px;
+		height: 180px;
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		padding: 50px 20px;
+		z-index: 10;
+		position: absolute;
+		left: 60px;
+		bottom: -90px;
+	}
+
+/* end-teacher-section */

@@ -1,0 +1,40 @@
+.events-section {
+	padding-top: 20px;
+}
+
+.event {
+	background-position: right;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	text-align: left;
+	box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	padding: 40px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.block-text-event {
+	max-width: 50%;
+}
+
+.event-title {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.event-text {
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.phone-event {
+	margin-top: 20px;
+}
+
+.strip-event {
+	margin-left: 0 !important;
+	width: 40%;
+	margin-top: 8px !important;
+}
+
