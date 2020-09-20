@@ -1,0 +1,131 @@
+.course-strip {
+	width: 30%;
+	margin-bottom: 7%;
+}
+
+.course-item {
+	box-shadow: 4px 10px 20px rgba(0, 0 , 0, 0.5);
+}
+
+.course-items-area .mix {
+	margin-bottom: 30px;
+}
+
+.course-item .card-course  {
+	height: 220px;
+	/*border: 1px solid #3871c7;*/
+	border-bottom: none;
+	border-radius: 3px 3px 0 0;
+	width: 100%;
+	position: relative;
+	perspective: 1000px;
+}
+
+.card-course .img-course {
+	height: 220px;
+	​​​​​​​background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.text-course-card, .img-course {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.course-item .course-info{
+	height: 220px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	white-space: nowrap;
+}
+.course-item .course-info .course-more{
+	align-self: flex-end;
+	color: #fff;
+	background-color: #3871c7;
+	width: 100%;
+	padding: 13px;
+	text-align: center;
+}
+
+.course-more-text {
+	font-size: 16px;
+	margin: auto;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.course-age-info, .course-text-info {
+	font-size: 14px;
+	margin: auto;
+	line-height: 1.6;
+}
+
+.course-text-info {
+	font-weight: 400;
+	/*border-bottom: 1px solid #3871c7;*/
+	padding-bottom: 10px;
+}
+
+.course-item .course-info .course-text {
+	padding: 25px 33px 15px;
+	/*border-right: 1px solid #3871c7;
+	border-left: 1px solid #3871c7;*/
+}
+.course-item .course-info .course-text  p{
+	margin-bottom: 10px
+}
+.course-item .course-info .course-text h5 {
+	margin-bottom: 3vh;
+	color: #000;
+	font-size: 16px;
+	
+}
+.course-item .course-info .course-text .students {
+	font-size: 17px;
+	font-weight: 600;
+	color: #3871c7;
+}
+
+.course-btn {
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 3px 3px;
+}
+
+.title-page-course {
+	margin-top: 50px;
+}
+
+.course-page-strip {
+	margin-bottom: 0;
+}
+
+.course-filter{
+	list-style-type: none;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.control {
+	position: relative;
+	text-align: center;
+
+}
+
+.course-section {
+	padding-top: 30px;
+}
+
+.mixitup-control-active {
+	color: #3871c7;
+	font-weight: 600;
+}
